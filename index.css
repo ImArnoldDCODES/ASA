@@ -11,11 +11,12 @@ body{
     background-color: whitesmoke;
 }
 header{
-    background-image: url('./images/landing.jpg');
-    background-position: 100%;
+    background-image: url('./images/Hero-image.png');
+    background-position: 90%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    
 }
 logo{
     font-size: 10rem;

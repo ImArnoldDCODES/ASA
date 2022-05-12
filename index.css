@@ -16,7 +16,6 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
 }
 logo{
     font-size: 10rem;
@@ -67,7 +66,7 @@ nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 340px;
+    margin-top: 300px;
     color: #fff;
     font-family: 'Lato', sans-serif;
 }
@@ -77,7 +76,7 @@ nav ul li a{
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
-    margin-left: -1300px;
+    margin-left: -1200px;
     color: #fff;
 }
 .socials img{
@@ -90,7 +89,6 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     color: #fff;
-
 }
 .musics ul{
     display: flex;
@@ -162,7 +160,7 @@ button{
    align-items: flex-end;
    justify-content: flex-end;
    position: relative;
-   margin-left: 50rem;
+   margin-left: 45rem;
 }
 .second img{
    width: 145%;
@@ -258,4 +256,62 @@ button{
     margin: 3px;
     width: 40px;
     height: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+    .bottom{
+        margin-top: 30rem;
+        margin-left: 5rem;
+    }
+    .content button{
+        margin-left: 30rem;
+        position: absolute;
+    }
+    .first,
+    .second{
+        width: 35%;
+    }
+    .second{
+        margin-left: 40rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        display: none;
+    }
+    .dot{
+        margin-left: 11.4rem;
+    }
+    .name{
+        margin-top: 1rem;
+    }
+    .bottom .musics ul{
+        margin-right: 5rem;
+    }
+    .bottom .musics ul li a{
+        font-size: 0.9rem;
+    }
+    .content button{
+        display: none;
+    }
+    .content ul{
+        margin-top: 1.5rem;
+    }
+    .content h2{
+        margin-top: 37rem;
+        margin-left: -16rem;    
+    }
+    .image-section .first{
+        width: 99%;
+        height: 100vh;
+        overflow: hidden;
+        background-position: center; 
+    }
+    .discography h1{
+        margin-top: 32rem;
+    }
+    .discography .images{
+        width: 100%;
+    }
 }

@@ -66,7 +66,7 @@ nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 50rem;
     color: #fff;
     font-family: 'Lato', sans-serif;
 }
@@ -300,7 +300,12 @@ button{
     }
     .content h2{
         margin-top: 37rem;
-        margin-left: -16rem;    
+        margin-left: -14rem;    
+    }
+    .COLLECTION2 img{
+        margin-left: 1.5rem;
+        margin-top: 10rem;
+        width: 90%;
     }
     .image-section .first{
         width: 99%;
@@ -309,9 +314,15 @@ button{
         background-position: center; 
     }
     .discography h1{
-        margin-top: 32rem;
+        margin-top: 12rem;
     }
     .discography .images{
-        width: 100%;
+       width: 60rem;
+       margin-left: -17rem;
+       margin-top: 1rem;
+    }
+    .discography h4{
+        margin-left: 15rem;
+        color: #fff;
     }
 }

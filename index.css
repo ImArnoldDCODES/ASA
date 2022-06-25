@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
@@ -330,4 +331,333 @@ button{
         margin-left: 15rem;
         color: #fff;
     }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-image: url('./images/Hero-image.png');
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+logo{
+    font-size: 10rem;
+    margin-left: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.dot{
+    margin-top: -135px;
+    margin-left: 168px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: -190px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.name{
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50rem;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    margin-left: -1200px;
+    color: #fff;
+}
+.socials img{
+    padding: 5px;
+}
+
+.musics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.musics ul{
+    display: flex;
+    align-items: center;
+}
+.musics ul li{
+    list-style: none;
+    margin: 0 0.6rem;
+    font-size: 20px;
+    border: 1px #fff solid;
+    border-radius: 20px;
+    padding: 7px;
+}
+.musics ul li a{
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content{
+    font-family: 'Dosis', sans-serif;    
+    display: flex;
+}
+.content h1{
+    margin-top: 90px;
+    margin-left: 30px;
+    font-size: 35px;
+}
+.content h2{
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 400px;
+}
+.content ul{
+    display: flex;
+    align-items: center;
+    margin-top: 350px;
+    margin-left: 50px;
+    position: absolute;
+}
+.content ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+button{
+ margin-top: 530px;
+ margin-left: 550px;
+ position: absolute;
+ border: #000 solid 1px;
+ border-radius: 20px;
+ padding: 10px;
+}
+
+.image-section{
+    display: flex;
+    margin-top: 100px;
+}
+.first{
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+}
+.first img{
+    width: 150%;
+    height: 100vh;
+}
+.second{
+   align-items: flex-end;
+   justify-content: flex-end;
+   position: relative;
+   margin-left: 45rem;
+}
+.second img{
+   width: 145%;
+   height: 70vh;
+   border-radius: 10px;
+}
+.COLLECTION{
+    /* display: flex;
+    flex-direction: row; */
+    margin-top: 300px;
+    font-family: 'Dosis', sans-serif;    
+}
+.COLLECTION h1{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.COLLECTION img{
+    margin-top: 230px;
+}
+
+.COLLECTION2{
+    margin-top: 100px;
+    font-family: 'Dosis', sans-serif;   
+}
+.COLLECTION2 h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 35px;
+}
+.COLLECTION2 h3{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.COLLECTION2 img{
+    display: flex;
+    flex-direction: column;
+    margin-left: 700px;
+    margin-top: -670px;
+    height: 86vh;
+    width: 40%;
+    height: 50%;
+}
+
+.discography{
+    margin-top: 200px;
+    height: 120vh;
+    font-family: 'Dosis', sans-serif;    
+}
+
+.discography .images{
+    margin-top: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discography h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    color: #000;
+    position: relative;
+    margin-top: 80px;
+}
+.discography img{
+
+    margin-top: 100px;
+    width: 35%;
+    height: 50vh;
+}
+.discography h4{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 530px;
+ margin-top: -350px;
+ color: #000;
+ font-size: 25px;
+ font-family: 'Akshar', sans-serif;
+}
+.discography .socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    margin-left: -250px;
+}
+.socials img{
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 1400px) {
+    .bottom{
+        margin-top: 30rem;
+        margin-left: 5rem;
+    }
+    .content button{
+        margin-left: 30rem;
+        position: absolute;
+    }
+    .first,
+    .second{
+        width: 35%;
+    }
+    .second{
+        margin-left: 40rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        display: none;
+    }
+    .dot{
+        margin-left: 11.4rem;
+    }
+    .name{
+        margin-top: 1rem;
+    }
+    .bottom .musics ul{
+        margin-right: 5rem;
+    }
+    .bottom .musics ul li a{
+        font-size: 0.9rem;
+    }
+    .content button{
+        display: none;
+    }
+    .content ul{
+        margin-top: 1.5rem;
+    }
+    .content h2{
+        margin-top: 37rem;
+        margin-left: -14rem;    
+    }
+    .COLLECTION2 img{
+        margin-left: 1.5rem;
+        margin-top: 10rem;
+        width: 90%;
+    }
+    .image-section .first{
+        width: 99%;
+        height: 100vh;
+        overflow: hidden;
+        background-position: center; 
+    }
+    .discography h1{
+        margin-top: 12rem;
+    }
+    .discography .images{
+       width: 60rem;
+       margin-left: -17rem;
+       margin-top: 1rem;
+    }
+    .discography h4{
+        margin-left: 15rem;
+        color: #fff;
+    }
+>>>>>>> d3ae163561370f459216280059eaeca03d57eeb3
 }

@@ -76,7 +76,8 @@ nav ul li a{
     align-items: flex-start;
     justify-content: flex-start;
     position: absolute;
-    margin-left: -1200px;
+    margin-left: -1500px;
+    margin-top: -40em;
     color: #fff;
 }
 .socials img{
@@ -89,6 +90,7 @@ nav ul li a{
     align-items: center;
     justify-content: center;
     color: #fff;
+    margin-top:-40rem;
 }
 .musics ul{
     display: flex;
@@ -136,7 +138,7 @@ nav ul li a{
 
 button{
  margin-top: 530px;
- margin-left: 550px;
+ margin-left: 650px;
  position: absolute;
  border: #000 solid 1px;
  border-radius: 20px;
@@ -281,13 +283,16 @@ button{
         display: none;
     }
     .dot{
-        margin-left: 11.4rem;
+        margin-left: 10.5rem;
     }
     .name{
         margin-top: 1rem;
     }
     .bottom .musics ul{
         margin-right: 5rem;
+    }
+    .musics{
+        margin-top: 1rem;
     }
     .bottom .musics ul li a{
         font-size: 0.9rem;
